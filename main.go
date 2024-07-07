@@ -19,7 +19,7 @@ import (
 	"github.com/dertseha/everoute/travel/rules/transitcount"
 	"github.com/dertseha/everoute/universe"
 
-	"github.com/dertseha/everoute-web/data"
+	"github.com/redteadev/everoute-web/data"
 )
 
 func reachableSystemPredicate() func(data.SolarSystemData) bool {

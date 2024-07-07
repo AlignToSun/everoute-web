@@ -21,7 +21,7 @@ import (
 	"github.com/dertseha/everoute/universe"
 	"github.com/dertseha/everoute/util"
 
-	"github.com/dertseha/everoute-web/api"
+	"github.com/redteadev/everoute-web/api"
 )
 
 type routeSearchResultCollector struct {
