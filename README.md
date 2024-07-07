@@ -7,6 +7,15 @@ This simple web service acts as a shell for the everoute library to provide a ro
 ## Public API
 (Still to be documented, for now refer to the ```test/requests``` subfolder.)
 
+```
+go env -w GO111MODULE=auto
+go get github.com/gorilla/rpc
+go get github.com/dertseha/everoute/universe
+go get github.com/redteadev/everoute-web/data
+go build
+# run the executable
+```
+
 ## License
 
 The project is available under the terms of the **New BSD License** (see LICENSE file).
