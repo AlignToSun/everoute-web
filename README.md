@@ -11,7 +11,7 @@ This simple web service acts as a shell for the everoute library to provide a ro
 go env -w GO111MODULE=auto
 go get github.com/gorilla/rpc
 go get github.com/dertseha/everoute/universe
-go get github.com/redteadev/everoute-web/data
+go get github.com/AlignToSun/everoute-web/data
 go build
 # run the executable
 ```
