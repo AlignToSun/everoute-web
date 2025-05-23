@@ -16,6 +16,8 @@ go build
 # run the executable
 ```
 
+The port of the service is set to 3000.
+
 ## License
 
 The project is available under the terms of the **New BSD License** (see LICENSE file).

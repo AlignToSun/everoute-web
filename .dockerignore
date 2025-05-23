@@ -1,0 +1,32 @@
+# backend/.dockerignore
+
+# This file specifies files and directories to ignore when building the Docker image for the backend service.
+
+# Ignore the Go module cache
+**/go/pkg
+
+# Ignore the binary output
+everoute-web
+
+# Ignore local configuration files
+*.env
+
+# Ignore version control directories
+.git
+.gitignore
+
+# Ignore any temporary files
+*.tmp
+*.log
+
+# Ignore any IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore test files
+*_test.go
+
+# Ignore vendor directory if using Go modules
+vendor/
